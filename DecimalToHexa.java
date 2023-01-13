@@ -9,7 +9,7 @@ String hexadecimal="";
 Scanner sc = new Scanner(System.in); 
 System.out.println("Enter a Decimal number: "); 
 num=sc.nextInt(); 
-System.out.println("Hexadecimal number is : "); 
+System.out.println("Hexadecimal number is : "+num); 
 while(num != 0) 
 { 
 rem=num%16; 
